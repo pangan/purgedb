@@ -1,0 +1,10 @@
+{
+  "connection": {},
+  "databases": [
+    "db1": {
+      "tables": [
+        {"tb1": ""}
+      ]
+    }
+  ]
+}
