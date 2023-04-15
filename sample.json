@@ -5,12 +5,12 @@
     "password": "password"
   },
   "databases": {
-    "tb1_test": {
+    "schema_1": {
       "mytable": "TIMESTAMPDIFF(day, snapshot_time, now())>1"
     },
-    "tb2_test": {
-      "foo": "id < 10",
-      "bar": "id < 100"
+    "schema_2": {
+      "tbl_1": "id < 10",
+      "tbl_2": "Here is the where clause"
     }
   }
 }
