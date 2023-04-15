@@ -1,10 +1,16 @@
 {
-  "connection": {},
-  "databases": [
-    "db1": {
-      "tables": [
-        {"tb1": ""}
-      ]
+  "connection": {
+    "host": "dbase_host",
+    "user": "userid",
+    "password": "password"
+  },
+  "databases": {
+    "tb1_test": {
+      "mytable": "TIMESTAMPDIFF(day, snapshot_time, now())>1"
+    },
+    "tb2_test": {
+      "foo": "id < 10",
+      "bar": "id < 100"
     }
-  ]
+  }
 }
